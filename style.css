@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    border: none;
+    outline: none;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.layer-tx{
+    position: absolute;
+    color: red;
+    font-size: 80px;
+    text-shadow: 4px 4px 6px #000;
+   
+}
+
+.layer-bg {
+    background: url(images/background_cat.jpg) center no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 110%;
+    height: 110%;
+    z-index: -1; 
+}
